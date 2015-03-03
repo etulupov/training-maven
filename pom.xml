@@ -10,6 +10,11 @@
     <packaging>pom</packaging>
 
     <name>Maven Training project</name>
+    <description>The project contains two submodules: calculator, solver</description>
+
+    <prerequisites>
+        <maven>3.0.0</maven>
+    </prerequisites>
 
     <properties>
         <java.target.version>1.6</java.target.version>
