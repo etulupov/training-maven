@@ -165,16 +165,16 @@
             <reporting>
                 <plugins>
                     <plugin>
-
                         <artifactId>maven-checkstyle-plugin</artifactId>
+                        <version>${maven.checkstyle.plugin.version}</version>
                     </plugin>
                     <plugin>
-
                         <artifactId>maven-surefire-report-plugin</artifactId>
+                        <version>${maven.surefire.plugin.version}</version>
                     </plugin>
                     <plugin>
-
                         <artifactId>maven-pmd-plugin</artifactId>
+                        <version>${pmd.version}</version>
                     </plugin>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
